@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Major Mono Display';
+  src: url("MajorMonoDisplay-Regular.ttf");
+}
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  background: #60ff70;
+  animation: lootkit-warp 8s linear 0s infinite alternate;
+  background-attachment: fixed;
+  font-family: 'Major Mono Display';
+  font-size: 1em;
+  color: #333;
+}
+#parappa-the-wrapper {
+  min-width: 400px;
+  min-height: 730px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+#body-card {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  margin-bottom: 25px;
+  background: #f2f2f2;
+  border: 5px solid #333;
+  border-radius: 10px;
+  box-shadow: 8px 8px #333;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+}
+h1 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.25em;
+}
+a {
+  font-weight: bold;
+}
+a:hover {
+  animation: lootkit-warp 1s linear 0s infinite alternate;
+}
+header {
+  padding: 3em;
+  display: grid;
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+@-moz-keyframes lootkit-warp {
+  0% {
+    background: #ffc312;
+  }
+  25% {
+    background: #9980fa;
+  }
+  50% {
+    background: #2ed573;
+  }
+  75% {
+    background: #12cbc4;
+  }
+  100% {
+    background: #fda7df;
+  }
+}
+@-webkit-keyframes lootkit-warp {
+  0% {
+    background: #ffc312;
+  }
+  25% {
+    background: #9980fa;
+  }
+  50% {
+    background: #2ed573;
+  }
+  75% {
+    background: #12cbc4;
+  }
+  100% {
+    background: #fda7df;
+  }
+}
+@-o-keyframes lootkit-warp {
+  0% {
+    background: #ffc312;
+  }
+  25% {
+    background: #9980fa;
+  }
+  50% {
+    background: #2ed573;
+  }
+  75% {
+    background: #12cbc4;
+  }
+  100% {
+    background: #fda7df;
+  }
+}
+@keyframes lootkit-warp {
+  0% {
+    background: #ffc312;
+  }
+  25% {
+    background: #9980fa;
+  }
+  50% {
+    background: #2ed573;
+  }
+  75% {
+    background: #12cbc4;
+  }
+  100% {
+    background: #fda7df;
+  }
+}
